@@ -7,6 +7,11 @@ spec:
   selector:
     app: tasks-api
   ports:
-    - protocol: TCP
+    - name: grpc
+      protocol: TCP
       port: 9090
       targetPort: 9090
+    - name: metrics
+      protocol: TCP
+      port: 2112
+      targetPort: 2112

@@ -17,6 +17,7 @@ spec:
           image: 29112001/tasks.api:v1.0.1
           ports:
             - containerPort: 9090
+            - containerPort: 2112
           envFrom:
             - configMapRef:
                 name: tasks-api
