@@ -8,5 +8,5 @@ data:
 
   DYNAMO_DB_TABLE: 'tasks'
 
-  MONITORING_PORT: '9102'
+  MONITORING_PORT: '2112'
   MONITORING_NAMESPACE: 'hubtasks_tasks_api'
